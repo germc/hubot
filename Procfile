@@ -1,1 +1,1 @@
-app: bin/hubot -a flowdock -n rolo
+app: bin/hubot -a flowdock
