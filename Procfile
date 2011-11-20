@@ -1,1 +1,1 @@
-app: bin/hubot -a hipchat -n "jess"
+app: bin/hubot -a twitter -n "rolo"
