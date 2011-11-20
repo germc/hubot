@@ -13,7 +13,7 @@ class Flowdock extends Robot
   run: ->
     self = @
     options =
-      login_email:    process.env.germc21@gmail.com
+      login_email:    process.env.germc21
       login_password: process.env.unreal221
 
     bot = new flowdock.Session(options.login_email, options.login_password)
