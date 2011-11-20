@@ -5,7 +5,7 @@ oauth       = require('oauth');
 
 key = process.env.JOJHPldDVEavdbZonisYw
 secret=process.env.Egic4FCHV1pHDJiUIjleygs7LCQEucgkLPnZP7o
-token=process.env.336610322-tSKm7nfm4QNKKnw7fD9iziJ5rBrhhGbYnUIRu0Ns
+token=process.env.tSKm7nfm4QNKKnw7fD9iziJ5rBrhhGbYnUIRu0Ns
 tokensecret=process.env.2PKCOXtfgMCrWN1o7FohPDe36QQurCb3qa8MH5Tf8Q
 
 consumer = new oauth.OAuth("https://twitter.com/oauth/request_token", "https://twitter.com/oauth/access_token",key, secret, "1.0", "", "HMAC-SHA1");
