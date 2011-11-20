@@ -38,4 +38,5 @@
   "dependencies": {
     "flowdock": "0.2.2",
     "hubot": "1.1.11",
+	}
 }
