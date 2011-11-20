@@ -1,1 +1,1 @@
-app: bin/hubot -a twitter -n "rolo"
+app: bin/hubot -a flowdock -n "rolo"
