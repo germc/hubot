@@ -8,7 +8,7 @@ module.exports = (robot) ->
       msg.send url
 
 googleMe = (msg, query, cb) ->
-  msg.http('http://www.google.com/search')
+  msg.http('http://www.google.com')
     .query(q: query)
     .get() (err, res, body) ->
-      cb body.match(/<a href="([^"]*)" class=l>/)?[1] || "Sorry, Google had zero results forr '#{query}'"
+      cb body.match(/<a href="([^"]*)" class=l>/)?[1] || "Sorry, Google had zero results for '#{query}'"
