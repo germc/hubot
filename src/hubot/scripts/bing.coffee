@@ -3,7 +3,7 @@
 # bing me <query>   - Bings <query> & returns 1st result's URL
 
 module.exports = (robot) ->
-  robot.respond /(bing)( me)? (.*)/i, (msg) ->
+  robot.respond /(google)( me)? (.*)/i, (msg) ->
     bingMe msg, msg.match[3], (url) ->
       msg.send url
 
