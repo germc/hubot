@@ -22,6 +22,7 @@
     "wolfram": "0.1.1",
 	"underscore": ">= 1.2.1",
     "underscore.string": ">= 1.1.6",
+	"soupselect": "0.2.0",
 	"scoped-http-client": "0.9.4",
     "irc": "0.2",
     "node-xmpp": ">=0.2.6",
