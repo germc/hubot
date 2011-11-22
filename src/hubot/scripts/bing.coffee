@@ -11,5 +11,5 @@ bingMe = (msg, query, cb) ->
   msg.http('http://www.bing.com/search')
     .query(q: query)
     .get() (err, res, body) ->
-      cb body.match(/<div class="sb_tlst"><h3><a href="([^"]*)"/)?[l] || "Sorry, Bing had zero results for '#{query}'"
+      cb body.match(/<div class="sb_tlst"><h3><a href="([^"]*)"/)?[1] || "Sorry, Bing had zero results for '#{query}'"
 
