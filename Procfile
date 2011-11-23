@@ -1,2 +1,2 @@
-app: bin/hubot -a talker
+app: bin/hubot -a talker, flowdock
 
