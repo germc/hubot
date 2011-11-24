@@ -1,2 +1,2 @@
-app: bin/hubot -a email
+app: bin/hubot -a gtalk
 
