@@ -2,7 +2,7 @@
 #
 # cheer me up - A little pick me up
 module.exports = (robot) ->
-  robot.respond /cheer me up/i, /cute me/i, (msg) ->
+  robot.respond /cute me/i, (msg) ->
     aww msg
 
   robot.hear /i( am|'m) emo/i, (msg) ->
