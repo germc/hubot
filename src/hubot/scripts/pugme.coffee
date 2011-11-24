@@ -10,9 +10,9 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         msg.send JSON.parse(body).pug
 
-  robot.respond /pug bomb( (\d+))?/i, (msg) ->
+  robot.respond /image bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 5
-    msg.http("http://pugme.herokuapp.com/bomb?count=" + count)
+    msg.http("http://ajax.googleapis.com/ajax/services/search/images" + count)
       .get() (err, res, body) ->
         msg.send pug for pug in JSON.parse(body).pugs
 
