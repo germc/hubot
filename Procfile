@@ -1,2 +1,2 @@
-app: bin/hubot -a gtalk
+app: bin/hubot -a talker
 
