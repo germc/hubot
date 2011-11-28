@@ -24,7 +24,7 @@ parse_directions = (body) ->
    return final_directions.join("\n")
     
 module.exports = (robot) ->
-  robot.respond /(get )?directions "((?:[^\\"]+|\\.)*)" "((?:[^\\"]+|\\.)*)"$/i, (msg) ->
+  robot.respond /(get )?directions ((?:[^\\"]+|\\.)*) ((?:[^\\"]+|\\.)*)$/i, (msg) ->
     [origin, destination] = msg.match[2..3]
 
     msg

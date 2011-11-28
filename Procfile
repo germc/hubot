@@ -1,1 +1,2 @@
-app: bin/hubot -a flowdock
+app: bin/hubot -a talker -n "rolo"
+
