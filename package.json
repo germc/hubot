@@ -29,7 +29,7 @@
     "node-xmpp": ">=0.2.6",
     "wobot": "0.3.0",
     "imap": "0.2.5",
-	"hubot-twitter": ,
+	"hubot-twitter": "1.0",
     "flowdock": "0.2.x"
 	
   },
