@@ -1,2 +1,2 @@
-app: bin/hubot -a talker -n "rolo"
+bin/hubot -a twitter -n "hoobots"
 
